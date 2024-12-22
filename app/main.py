@@ -1,5 +1,4 @@
 from dataclasses import asdict
-
 from app.service.insert_service import insert_list_to_mongo, insert_list_to_elastic
 from app.utils.csv_util import process_csv, process_csv_2, save_json_to_file, merge_event_lists
 
