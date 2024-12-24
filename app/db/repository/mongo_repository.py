@@ -1,6 +1,6 @@
 from ..mongo_database import db, event_collection
 from ..models.event_model import Event
-from analise_data_and_routs.utils.event_utill import to_event, event_to_json
+from app.utils.event_utill import to_event, event_to_json
 
 
 def create_events(events):

@@ -5,10 +5,10 @@ import numpy as np
 import pandas as pd
 import toolz as t
 
-from mongo_db.models.date_model import Date
-from mongo_db.models.event_model import Event
-from mongo_db.models.location_model import Location
-from mongo_db.models.target_type_model import TargetType
+from app.db.models.date_model import Date
+from app.db.models.event_model import Event
+from app.db.models.location_model import Location
+from app.db.models.target_type_model import TargetType
 from typing import List
 
 

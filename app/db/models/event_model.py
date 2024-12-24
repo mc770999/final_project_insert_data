@@ -2,9 +2,9 @@ from dataclasses import dataclass, field
 from datetime import datetime
 from typing import List
 
-from mongo_db.models.date_model import Date
-from mongo_db.models.location_model import Location
-from mongo_db.models.target_type_model import TargetType
+from app.db.models.date_model import Date
+from app.db.models.location_model import Location
+from app.db.models.target_type_model import TargetType
 
 
 @dataclass
